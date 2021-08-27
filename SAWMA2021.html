@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Detecting wildlife poaching</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Nick van Doormaal" />
+    <meta name="date" content="2021-08-25" />
+    <link href="libs/remark-css/hygge.css" rel="stylesheet" />
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+    <link rel="stylesheet" href="css/custom.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+class: title-slide, center, inverse
+background-image: url("./figures/TA logo transparent.png"), url("./figures/nscr-logo.png"), url("./figures/uu-logo.png")
+background-position: 100% 100%, 50% 118%, 1% 100%
+background-size: 23% 23%, 20% 35%
+
+
+
+
+
+&lt;style&gt;
+.title-slide .remark-slide-number {
+  display: none;
+}
+&lt;/style&gt;
+
+# **Detecting Wildlife Poaching**
+
+## A rigorous method for comparing patrol strategies using an experimental design
+&lt;br&gt;
+### Nick van Doormaal
+
+### A.M Lemieux -- S. Ruiter -- C.R. Spencer -- P.M.R.R. Allin
+
+???
+Study part of my PhD studies in the Netherlands. And in collaboration with TA in South Africa. Quick background, but main focus on the methodology and results.
+
+---
+
+# Introduction
+
+---
+class: center
+
+# **Detecting poaching is complex**
+&lt;br&gt;
+--
+
+## Dependent on patrol effort and training
+
+.pull-left[
+&lt;img src="https://watertownpd.org/ImageRepository/Document?documentID=46"&gt;
+]
+.pull-right[
+&lt;img src="https://i2.wp.com/worldscholarshipforum.com/wp-content/uploads/2021/01/army-ranger-training.jpg?fit=411%2C240&amp;ssl=1"&gt;
+]
+
+???
+Wildlife poaching is a complex problem to study for various reasons. Most poaching activities can only be identified through proactive and reactive patrolling, while levels of poaching in unpatrolled areas remain unknown. Previous studies have shown that detectability of wildlife poaching can vary substantially among different levels of experience, available information, landscapes, and seasons. The recorded observations by rangers are therefore a function of patrol rather than a function of where poaching occurs.
+
+---
+class: center
+# **Patrol data is biased**
+&lt;br&gt;
+## Recorded observations are **NOT** neccesarily solely a function of where poaching occurs
+
+???
+the recorded poaching events for future deployment decisions
+If biased data are used, efforts may not be targeted in areas where they are needed the most. Example: that rangers avoided certain areas during their patrols, and this influenced the observed poaching patterns. 
+Not saying to stop patrolling, patrol-based data handled with caution to avoid misleading patterns and inefficient deployment
+---
+class: center
+# How can we evaluate patrol effectivness?
+--
+&lt;br&gt;
+## Mark-recapture models and predictive modelling
+&lt;img src="https://ars.els-cdn.com/content/image/1-s2.0-S0006320718306396-gr4.jpg", width = "48%"&gt;
+
+---
+class: center
+# How can we evaluate patrol effectiveness?
+&lt;br&gt;
+# **Field experiments**
+&lt;img src="https://askabiologist.asu.edu/sites/default/files/experiments_01.gif", width = "80%"&gt;
+
+---
+class: center
+# Our study objectives
+&lt;br&gt;
+- ## Outline a method for estimating the&lt;br&gt;probabilities of detecting poaching
+- ## Evaluate alternative strategies&lt;br&gt;for detecting **snares** 
+
+---
+
+class: left
+background-image: url(figures/inset-map-1.png)
+background-size: contain
+
+### Olifants West Nature Reserve, South Africa
+
+
+
+---
+
+class: left
+background-image: url(figures/buffer-map-1.png)
+background-size: contain
+
+### Bufferzone
+### 4.15 `\(km^{2}\)`
+### Fenced
+
+
+
+---
+
+class: left top
+background-image: url(figures/buffer-points-1.png)
+background-size: contain
+
+### Imitation snares &lt;br&gt; N = 166
+### Random&lt;br&gt;distribution
+
+
+
+---
+
+class: center
+
+## Search strategies
+
+.pull-left[
+### Baseline estimation
+### No changes in patrol
+]
+
+--
+
+.pull-right[
+### - Spatially focussed searches
+### - With independent observers
+### - Systematic search strategies
+]
+
+--
+
+.pull-left[
+&lt;img src="figures/SystematicA.png" width="250px" height="250px" style="display: block; margin: auto 0 auto auto;" /&gt;
+]
+
+.pull-right[
+&lt;img src="figures/SystematicB.png" width="250px" height="250px" style="display: block; margin: auto auto auto 0;" /&gt;
+]
+
+---
+
+class: center
+
+## Data analyses
+&lt;br&gt;
+### Kaplan-Meier survival analysis
+&lt;br&gt;
+### Bootstrap sampling
+### All snares within 5m radius assumed to be within range
+
+---
+
+class: center
+
+## Results
+### In total, only 23% (n=38) of all snares got detected
+
+&lt;img src="SAWMA2021_files/figure-html/snaresweeps-1.png" width="800px" height="420px" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: right
+background-image: url(figures/SurvivalCurve.svg)
+background-size: contain
+
+&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt;
+
+###**75%**
+
+---
+
+class: center
+background-image: url(figures/baseline.png)
+background-size: contain
+
+###Comparing patrol strategies
+---
+
+class: center
+background-image: url(figures/strategies-1.png)
+background-size: contain
+
+---
+
+class: center
+background-image: url(figures/strategies-2.png)
+background-size: contain
+
+
+
+---
+
+class: center
+
+# Conclusion &amp; future research
+&lt;br&gt;
+## Stepping stone for evaluations
+&lt;br&gt;
+## Adjust to other crimes or areas
+
+---
+
+class: title-slide, center
+background-image: url("./figures/TA logo transparent.png"), url("./figures/nscr-logo.png"), url("./figures/uu-logo.png")
+background-position: 100% 100%, 50% 118%, 1% 100%
+background-size: 23% 23%, 20% 35%
+
+# **Thank you for your attention!**
+
+## Feel free to contact me for questions, collaborations, etc.
+&lt;br&gt;
+### Nick van Doormaal, PhD
+
+### nick.vandoormaal [at] gmail [.com]&lt;br&gt; wildlifesecurity [at] transfrontierafrica [.org]
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"slideNumberFormat": "",
+"ratio": "16:9",
+"navigation": {
+"scroll": false
+}
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
